@@ -655,19 +655,19 @@ Note:  When actually putting something into production, you will want to narrow 
 
 19. Running our app. From nodejs-express-mongodb directory run server.js
 
-        node server.js
+    node server.js
 
-        ![image](images/image34.png)
+    ![image](images/image34.png)
 
 ## Part 4: Kick off the batch process from any web-enabled client terminal
 
 1.  Switch back to the console view to look at  “VM Instances” under “Compute Engine”.  Our external IP address is listed next to our instance.
 
-        ![image](images/image37.png)
+    ![image](images/image37.png)
 
 2.  Use a web-enabled client terminal to visit your new application using the external  URL in the previous step and specify port 8080.   You should see a webpage similar to this:
 
-        ![image](images/image25.png)
+    ![image](images/image25.png)
 
 ## Part 5: Verify our new metadata in both the conole and in our MongoDB Atlas database
 
